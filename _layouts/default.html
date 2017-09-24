@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.4.1/gridlex.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif|PT+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css"/>
+    <script src="https://use.fontawesome.com/736ca1180c.js"></script>
+  </head>
+  <body>
+    <header id="home">
+      <nav class="grid-spaceBetween">
+        <div class="col-2 logo-home">
+          <a href="#home">Home</a>
+        </div>
+        <div class=="col-5 navigation">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+      <div class="main">
+        <h3>Mark Mosterd</h3>
+        <h1>ENTREPRENEUR</h1>
+        <h2><i class="fa fa-bookmark fa" aria-hidden="true"></i> The Netherlands</h2>
+      </div>
+    </header>
+---
+{{content}}
+---
+    <footer id="contact">
+      <div class="container">
+        <h2>Get in touch</h2>
+        <form method="POST" action="http://formspree.io/YOUREMAILHERE">
+          <label for="name">your name</label>
+          <input id="name" type="tekst" name="name" placeholder="name">
+          <label for="email">your email</label>
+          <input id="email" type="email" name="email" placeholder="your email">
+          <label for="message">your message</label>
+          <textarea id="message" name="message" placeholder="your message"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+      <div class="social">
+        <a href="https://www.facebook.com/">Facebook</a>
+        <a href="https://www.instagram.com/">Instagram</a>
+        <a href="https://www.facebook.com/">LinkedIn</a>
+      </div>
+    </footer>
+  </body>
+</html>

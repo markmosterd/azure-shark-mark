@@ -1,0 +1,205 @@
+/* GENERAL STYLES */
+*{
+  box-sizing:border-box;
+  padding:0;
+  Margin:0;
+}
+body{
+  background-color:grey;
+  font-family: 'Noto Serif', serif;
+  color:white;
+  /* fonts that you want applied to your entire body*/
+}
+section {
+  padding: 2% 5%;
+}
+h1, h2, h3, h4, h5, h6{
+  /*fonts I want for my heading*/
+  /*font styles I want for my headings*/
+}
+a{
+  /*remove underline*/
+  /*change color*/
+}
+a:hover{
+  color: grey;
+}
+header{
+  padding: 5%;
+  background-image:url("../images/home-image.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 100vh;
+  /*apply padding or margin*/
+}
+footer{
+  background-color:darkgrey;
+  padding: 0 0 3% 0;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  padding:0 2%;
+}
+h1{
+  font-size: 80px;
+  text-transform:uppercase;
+  letter-spacing:3px;
+}
+h2{
+  font-size: 40px;
+  text-align:center;
+  text-transform:uppercase;
+  letter-spacing:3px;
+  text
+}
+h3{
+  font-size:20px;
+  text-transform:uppercase;
+  letter-spacing:3px;
+}
+h4{
+  font-size:15px;
+  text-transform:uppercase;
+  letter-spacing:3px;
+}
+p{
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing:2px;
+}
+.logo-home a{
+  margin:40%;
+}
+.navigation a{
+  margin:0 40%;
+}
+.main{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding:5%;
+  }
+.main h1{
+  margin:2%;
+}
+.main h2{
+  margin:1%;
+}
+.main h3{
+  margin:5% 0 1% 0;
+}
+#about{
+  background-color: darkgrey;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:5%;
+}
+#about div{
+  background-color: white;
+  color: black;
+  width: 55%;
+  padding: 2% 5% 5% 5%;
+}
+#about h3{
+  margin:5%;
+  text-align:center;
+}
+#about p{
+  text-align:center;
+}
+#skills{
+  background-color: white;
+  text-align:center;
+  color: black;
+}
+#skills h2{
+  padding:3% 0;
+}
+#skills h3{
+  padding:4% 0
+}
+#skills i{
+  padding:4% 0
+}
+#skills p{
+  padding:4% 0
+  text-align:left;
+}
+.skills-1{
+  padding:0 0 4% 0;
+}
+.skills-2{
+  padding: 4% 0 0 0;
+}
+
+/* MAP SECTION*/
+
+#map{
+  background-color:white;
+  padding:0;
+}
+
+/* EXPERIENCE SECTION */
+
+#experience{
+  background-color:white;
+  color:black;
+  text-align:left;
+  padding: 0 8% 0 8%;
+}
+#experience h2{
+  text-align: center;
+  padding: 6% 0 3% 0;
+}
+#experience [class*="col"] {
+  padding: 2%;
+}
+#experience p{
+  padding: 0 6% 0 6%;
+}
+/*STYLES FOR FOOTER*/
+#contact h2{
+  padding:3% 0 3% 0;
+}
+
+form input,
+form label,
+form textarea,
+form button{
+  display:block;
+  width: 100%;
+  text-align: center;
+  padding: 3%;
+  border-radius: 2px;
+  outline:none;
+}
+form button{
+  margin-top: 10px;
+}
+.social{
+  color: white;
+  text-align:center;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+/*body{
+background-color: #778899;
+  font-family: 'Noto Serif', serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+  background-image:url("../images/backgroundimage.png");*/
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'PT Sans', sans-serif;
+}
+/* HELPERS */
+.container{
+  margin: 0 auto; /*centreren*/
+  max-width: 600px;
+}
